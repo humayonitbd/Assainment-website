@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+.container-fluid{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+    
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.col-100{
+    width: 100%;
+    padding: 0 25px;
+}
+.col-50{
+    width: 50%;
+    padding: 0 25px;
+}
+.col-33{
+    width: 33.33%;
+    padding: 0 25px;
+}
+.col-33{
+    width: 33.33%;
+    padding: 0 25px;
+}

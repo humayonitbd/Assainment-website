@@ -38,14 +38,19 @@ body{
     width: 33.33%;
     padding: 0 25px;
 }
-.col-33{
-    width: 33.33%;
+
+.col-25{
+    width: 25%;
     padding: 0 25px;
 }
 .section-Padding{
     padding-top: 50px;
     padding-bottom: 50px;
 
+}
+img{
+    width: 100%;
+    height: auto;
 }
 
 /* ==========home-css start========== */
@@ -74,7 +79,7 @@ body{
 }
 .home-content h1{
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 65px;
     margin-bottom: 20px;
 }
@@ -93,6 +98,11 @@ body{
     font-weight: 500;
     border-radius: 5px;
     margin-top: 30px;
+}
+.section-btn:hover{
+    background: #FF5959;
+    color: #fff;
+   
 }
 .section-btn:hover{
     background: #e36f6f;
@@ -174,6 +184,7 @@ body{
 
 .donat-plan-content{
     padding: 35px 30px;
+    height: 360px;
 
 }
 .activeColor1{
@@ -188,7 +199,9 @@ body{
     background: #FFF4D6;
 
 }
-.donat-plan-content img{
+.donat-plan-content .plan-icon{
+    width: 30%;
+    height: 30%;
     margin-bottom: 20px;
 
 }
@@ -207,6 +220,78 @@ body{
 
 /* ==========donate plan-css end========== */
 
+/* ==========donate blog-css end========== */
+.blog-content{
+    padding: 0 10px;
+    
+}
+.blog-content h3{
+    margin: 10px 0;
+}
+.blog-content p{
+    text-align: justify;
+    margin-bottom: 15px;
+}
+.blog-content .blog-btn{
+    color: #FF5959;
+    margin: 15px  0;
+    display: inline-block;
+    
+}
+.footer-blog{
+    padding: 0 10px;
+    
+}
+.footer-blog p{
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+    border-top: 2px solid #707070;
+    border-bottom: 2px solid #707070;
+}
+.blog-details{
+    position: relative;
+    padding-bottom: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+}
+.activeBlog{
+    background: #FF5959;
+    color: white;
+    
+}
+.activeBlog .footer-blog p{
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    
+}
+.blog-details:hover{
+    background: #FF5959;
+    color: white;
+    
+}
+.blog-details:hover .footer-blog p{
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    
+
+}
+
+.blogImg::after{
+    content: "Read more";
+    position: absolute;
+    background: #FF5959;
+    color: white;
+    padding: 5px 10px ;
+    left: 0;
+    top: 145px;
+    font-size: 14px;
+}
+
+
+
+/* ==========donate blog-css end========== */
+
 
 /* ==========contact-css start========== */
 .contact-contentful{
@@ -214,6 +299,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-bottom: 100px;
     
     
 }

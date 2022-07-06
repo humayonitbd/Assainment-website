@@ -4,6 +4,11 @@
     box-sizing: border-box;
     outline: 0;
 }
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'); */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .container-fluid{
     width: 100%;
     margin: 0 auto;
@@ -37,3 +42,173 @@
     width: 33.33%;
     padding: 0 25px;
 }
+.section-Padding{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+/* ==========home-css start========== */
+.Home{
+    background: url(images/donation2.jpg) center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    padding: 240px 0;
+}
+.Home::after{
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.632);
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+    
+}
+.home-content{
+    text-align: center;
+    color: #fff;
+}
+.home-content h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 20px;
+}
+.home-content p{
+    font-size: 16px;
+    
+    
+}
+.section-btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 16px;
+    background: #FF5959;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.section-btn:hover{
+    background: #e36f6f;
+   
+}
+
+/* ==========home-css end========== */
+
+
+/* ==========donate-css start========== */
+.site-title{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.site-title h1{
+    text-transform: capitalize;
+    color: #121212;
+    margin: 10px 0;
+
+}
+.site-title .pp{
+    color: #707070;
+    
+}
+
+.content-taka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Div100tk{
+    margin: 0 10px;
+    background: #FAFAFA;
+    color: #707070;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 20px 15px;
+    border: 2px solid white;
+
+}
+.Div100tk:hover{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    color: #FF5959;
+}
+.active{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    color: #FF5959;
+
+}
+.taka-add-sec{
+   text-align: center;
+    margin-top: 40px;
+
+}
+.Addamound{
+    width: 50%;
+    margin: 0 auto;
+}
+.Addamound input{
+    border: none;
+    border-bottom: 3px solid #FAFAFA;
+    width: 100%;
+    padding: 5px 0;
+}
+.Addamound input::placeholder{
+    text-align: center;
+}
+
+/* ==========donate-css end========== */
+
+
+/* ==========donate plan-css start========== */
+
+.donat-plan-content{
+    padding: 35px 30px;
+
+}
+.activeColor1{
+    background: #EDF5F6;
+
+}
+.activeColor2{
+    background: #FFEEEE;
+
+}
+.activeColor3{
+    background: #FFF4D6;
+
+}
+.donat-plan-content img{
+    margin-bottom: 20px;
+
+}
+.donat-plan-content h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #121212;
+    margin-bottom: 10px;
+
+}
+.donat-plan-content p{
+    font-size: 16px;
+    color: #707070;
+
+}
+
+/* ==========donate plan-css end========== */
+
+
+/* ==========contact-css start========== */
+
+
+
+/* ==========contact-css end========== */

@@ -105,13 +105,14 @@ body{
 /* ==========donate-css start========== */
 .site-title{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     
 }
 .site-title h1{
     text-transform: capitalize;
     color: #121212;
     margin: 10px 0;
+    font-size: 35px;
 
 }
 .site-title .pp{
@@ -158,9 +159,9 @@ body{
 }
 .Addamound input{
     border: none;
-    border-bottom: 3px solid #FAFAFA;
+    border-bottom: 3px solid #e2e0e0;
     width: 100%;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 .Addamound input::placeholder{
     text-align: center;
@@ -208,7 +209,66 @@ body{
 
 
 /* ==========contact-css start========== */
+.contact-contentful{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+.contact-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF4D6;
+    width: 70%;
+    padding: 50px 0;
+    
+    
+}
 
 
+form{
+    background: #6c6b69;
+    padding: 20px 15px;
+    width: 50%;
+    
+}
+form input{
+    width: 100%;
+    padding: 10px 0;
+}
+.submit-btn{
+    background: #FF5959;
+    border: none;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+}
+.submit-btn:hover{
+    background: #e88f8f;
+    
+}
 
 /* ==========contact-css end========== */
+
+/* ==========footer-css start========== */
+.Footer{
+    background: #121212;
+    text-align: center;
+    color: white;
+}
+.footer-content h1{
+    color: #FF5959;
+    padding: 15px 0;
+
+}
+.footer-content p{
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #e3e3e2;
+
+}
+
+/* ==========footer-css end========== */
